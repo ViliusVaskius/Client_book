@@ -1,0 +1,189 @@
+
+
+
+#header {
+
+    width: 100%;
+    height: auto;
+    background: rgba(228, 225, 247, 0.445);
+    min-width: 320px;
+    max-width: 100%;
+   
+    }
+    
+
+img {
+min-width: 300px;
+max-width: 100%;
+
+}
+
+
+.log {
+    display: flex;
+flex-grow: 4;
+
+margin-left: 10px;
+margin-right: 10px;
+min-width: 250px;
+max-width: 100%;
+height: auto;
+
+
+form {
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 250px;
+    max-width: 100%;
+   justify-content: center;
+   
+
+
+    #login{
+       margin-top: 10px;
+        margin-left: 70px; 
+       padding: 5px; 
+       
+        
+    }
+}
+
+}
+
+
+
+
+.new{
+    
+    position: relative;
+    text-decoration: none;
+    margin: 0 auto;
+display: inline-block;
+width: 220px;
+height: 30px;
+
+
+}
+
+
+
+.new a{
+  font-size: 25px;
+  margin: 0 auto;
+  display: inline-block;
+text-decoration: none;
+list-style-type: none;
+
+    }
+
+/*Container */
+
+
+.container{
+
+h2{
+    text-align: center;
+}
+form {
+
+    text-align: center;
+
+    input{
+        margin: 5px;
+    }
+    
+    #create {
+        padding: 3px;
+    }
+}
+
+
+
+}
+button.logout  {
+    font-size: 17px;
+   display: inline-block;
+  position: relative;
+
+   
+   
+   
+}
+.logout-b{
+
+    display: inline-block;
+    
+}
+
+
+.login-bo{
+    margin-left:750px; 
+  text-align: right; 
+    width:400px;
+  position: relative;
+  display: block;
+  
+
+
+
+
+
+}
+
+
+.right{
+    float: right;
+}
+
+
+/* Media query world!!!_________________________________________________________________*/
+
+@media only screen and (max-width: 1500px){
+    .login-bo{
+margin-left: 550px;
+
+    }
+
+ }//end of 1580
+
+
+ @media only screen and (max-width: 1115px){
+
+    .login-bo{
+        margin-left: 0px;
+        
+            }
+
+        }
+
+@media only screen and (max-width: 630px){
+.log{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.login-bo{
+    text-align: left;
+}
+
+} //close of 630px query
+
+
+
+//420px
+@media only screen and (max-width: 420px){
+
+#log-forma{
+    margin-top: 35px; 
+}
+
+
+.new a{
+    margin-left: -35px;
+}
+
+
+}
+
